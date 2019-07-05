@@ -21,7 +21,7 @@ int crashValue2;
 
 //variables to store limit values
 int waterCeiling = 700;
-int lightFloor = 1504;
+int lightFloor = 150;
 
 // setup code
 void setup() {
@@ -76,7 +76,6 @@ void piano(int key){
 
 // main code to run repeatedly
 void loop() {
-//  Serial.println(analogRead(light3));
   // store sensor values in respective variables
   lightValue1 = analogRead(light1);
   lightValue2 = analogRead(light2);
